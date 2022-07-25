@@ -63,6 +63,7 @@ const App: React.FC = () => {
 ## API
 
 | 参数 | 说明 | 类型 | 默认值 |
+| --- | --- | --- | --- |
 | options | 字段选择配置项 | { label: string; value: string }[] | - |
 | onPick | 字段选择onChange函数 | (value: string) => void; | - |
 | pickValue | 字段选择框value | string | - |

@@ -23,4 +23,4 @@ const App: React.FC = () => {
 
 ## API
 
-具体见：[antd.TreeSelect](https://ant.design/components/tree-select-cn/#API) | - | - |
+具体见：[antd.TreeSelect](https://ant.design/components/tree-select-cn/#API)

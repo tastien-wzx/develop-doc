@@ -4,7 +4,7 @@ module.exports = {
   themeConfig: {
     nav: [
         { 
-          text: 'Github', link: '' ,
+          text: 'Github', link: 'https://github.com/tastien-wzx/develop-doc' ,
         }
     ],
     sidebar: [
