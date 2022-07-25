@@ -1,5 +1,5 @@
-# ArchitectureCascader 组织与门店联动选择器
-
+# ArchitectureCascader 组织与门店联动选择器(重复)
+与（@/components/Filters/ArchitectureCascader）重复
 ## 何时使用
 - 
 

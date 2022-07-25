@@ -1,4 +1,5 @@
-# ArchitectureAndShop 组织与门店联动选择器
+# ArchitectureAndShop 组织与门店联动选择器（重复）
+与（@/components/Filters/ArchitectureAndShop）重复
 
 ## 何时使用
 - 
