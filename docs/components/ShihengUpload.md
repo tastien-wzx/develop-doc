@@ -1,7 +1,8 @@
 # ShihengUpload 上传按钮
 
 ## 何时使用
-- 用于导出文件时使用的按钮
+
+用于导出文件时使用的按钮
 
 ## 代码演示
 
@@ -37,4 +38,4 @@ const App: React.FC = () => {
 | accept | 可上传的文件类型 | boolean | false |
 | api | 上传时调用的接口 | (arg: { file: File; [index: string]: any } => Promise`<any>` | - |
 | others | 调用接口时要传的参数 | any | - |
-| onSuccess | 上传成功的回调 | (result: CallResult<F>) => void; | 上传失败的回调
+| onSuccess | 上传成功的回调 | `(result: CallResult<F>) => void;` | 上传失败的回调 |

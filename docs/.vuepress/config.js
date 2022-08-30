@@ -7,6 +7,7 @@ module.exports = {
           text: 'Github', link: 'https://github.com/tastien-wzx/develop-doc' ,
         }
     ],
+    sidebarDepth: 0,
     sidebar: [
       {
         title: '通用',
@@ -115,5 +116,5 @@ module.exports = {
       lang: 'zh-CN'
     }
   },
-  subSidebar: 'auto'
+  // subSidebar: 'auto'
 }

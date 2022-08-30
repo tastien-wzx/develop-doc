@@ -8,31 +8,30 @@
 ## 代码演示
 
 ```js
-import { MultipleOptionItem } from '@/components/Share';
+import MultipleOptionItem from '@/components/Share/MultipleOptionItem/OtherMultiple';
+
 const onFinish = (values: any) => {
     const params = {
-      shopIds: values.shopIds,
       [values.searchType]: values.keyword,
     };
 };
+
 const App: React.FC = () => {
   return (
     <Form
       form={menuFilterForm}
-      name="shopAnalysisFilters"
       layout="inline"
-      initialValues={{ searchType: 'productName', isOpen: false }}
+      initialValues={{ searchType: 'name' }}
       onFinish={onFinish}
     >
       <MultipleOptionItem
         options={[
-          { name: '支付订单号', value: 0 },
-          { name: '业务订单号', value: 1 },
+          { name: '商品名称', value: 'name' },
+          { name: '商品ID', value: 'id' },
         ]}
         inputItemName="keyword"
         optionItemName="searchType"
-        style={{ ...style, minWidth: 'calc(33.33% - 1.5rem)' }}
-        label="订单信息"
+        label="商品信息"
         inputStyle={{ maxWidth: 300 }}
         selectProps={{ style: { minWidth: '10em' } }}
         maxLength={40}
